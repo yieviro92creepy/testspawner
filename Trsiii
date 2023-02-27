@@ -4,7 +4,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 
 local entityTable = Spawner.createEntity({
 
-    CustomName = "Template Entity", -- Custom name of your entity
+    CustomName = "Rush", -- Custom name of your entity
 
     Model = "11218170101", -- Can be GitHub file or rbxassetid
 
@@ -14,7 +14,7 @@ local entityTable = Spawner.createEntity({
 
     HeightOffset = 0,
 
-    CanKill = true,
+    CanKill = false,
 
     KillRange = 50,
 
